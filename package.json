@@ -4,6 +4,7 @@
   "description": "SQL-Employee-Tracker",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/cfellwock/SQL-Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/cfellwock/SQL-Employee-Tracker#readme"
+  "homepage": "https://github.com/cfellwock/SQL-Employee-Tracker#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
