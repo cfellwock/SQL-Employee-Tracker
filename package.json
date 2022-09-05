@@ -4,7 +4,7 @@
   "description": "SQL-Employee-Tracker",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/cfellwock/SQL-Employee-Tracker#readme",
   "dependencies": {
     "chalk": "^5.0.1",
+    "dotenv": "^16.0.2",
     "inquirer": "^8.2.4",
     "mysql2": "^2.3.3"
   },
